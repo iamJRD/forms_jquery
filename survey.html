@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/survey-styles.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-1.12.0.js"></script>
+    <script src="js/survey.js"></script>
+    <title>Survey</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h1>User Survey</h1>
+        <div id="blanks">
+          <form>
+            <div class="form-group">
+              <label for="name">Full name</label>
+              <input id="name" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+              <label for="foods">Favorite food</label>
+              <input id="foods" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+              <label for="music">Favorite bands</label>
+              <input id="music" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+              <label for="movie">Favorite movie</label>
+              <input id="movie" class="form-control" type="text">
+            </div>
+            <div class="checkbox">
+              <label>
+                <input type="checkbox" value="">
+                Do you like animals?
+              </label>
+            </div>
+            <h3>Pick your favorite color:</h3>
+            <select class="form-control">
+              <option></option>
+              <option>Blue</option>
+              <option>Red</option>
+              <option>Green</option>
+              <option>Black</option>
+              <option>Grey</option>
+            </select>
+
+            <button type="submit" class="btn btn-default">Submit</button>
+
+          </form>
+      </div>
+    </div>
+  </body>
+</html>
