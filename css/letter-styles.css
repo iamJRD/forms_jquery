@@ -4,4 +4,17 @@
 
 .panel {
   margin-top: 20px;
+  width: 450px;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+#signature {
+  font-family: cursive;
+}
+
+.p {
+  font-family: sans-serif;
 }
