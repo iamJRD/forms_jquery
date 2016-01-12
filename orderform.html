@@ -15,11 +15,11 @@
       <div class="jumbotron">
         <h1>Headphones Order Form</h1>
       </div>
-      <div class="blanks">
+      <div id="blanks">
         <form>
           <div class="form-group">
-            <label for="person">Full name</label>
-            <input id="person" class="form-control" type="text">
+            <label for="name">Full name</label>
+            <input id="name" class="form-control" type="text">
           </div>
           <div class="form-group">
             <label for="street">Street address</label>
@@ -37,8 +37,26 @@
             <label for="zipcode">Zip code</label>
             <input id="zipcode" class="form-control" type="text">
           </div>
+
+            <button type="submit" class="btn btn-default">Submit</button>
+
         </form>
       </div>
-   </div>
+
+      <div id="receipt">
+        <h2>Thank you for your order!</h2>
+          <p>Your total comes to $4,000</p>
+        <h3>Order Confirmation</h3>
+        <p>Name:<span class="name"></span></p>
+        <p>Address:
+          <span class="street"></span>,
+          <span class="city"></span>,
+          <span class="state"></span>
+          <span class="zipcode"></span>
+        </p>
+        <p>Quantity: 4</p>
+        <p>Total: $4,000</p>
+      </div>
+    </div>
   </body>
 </html>
