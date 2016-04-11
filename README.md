@@ -6,7 +6,7 @@ This project is further exploration of HTML/CSS/JavaScript/jQuery.
 
 ## Installation
 
-* `git clone https://github.com/jaredbeckler/dom-manipulation` this repository
+* `git clone https://github.com/jaredbeckler/forms_jquery` this repository
 * Change into the new directory
 * Drag `index.html` into a web browser to view the page
 
